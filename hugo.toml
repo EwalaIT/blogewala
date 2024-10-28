@@ -1,4 +1,4 @@
-baseURL = 'https://ewalait.github.io/blogewala/'
+baseURL = 'https://blogewala.es'
 languageCode = 'en-us'
 title = 'Ewala IT Services Blog'
 theme = 'paper'

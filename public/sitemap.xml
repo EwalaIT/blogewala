@@ -2,49 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/pruebas-jahugo/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-10-28T09:40:23+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pruebas-jahugo/posts/karont3/karont3/</loc>
+    <loc>http://localhost:1313/posts/karont3/karont3/</loc>
     <lastmod>2024-10-28T09:40:23+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pruebas-jahugo/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-10-28T09:40:23+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pruebas-jahugo/tags/products/</loc>
+    <loc>http://localhost:1313/tags/products/</loc>
     <lastmod>2024-10-28T09:40:23+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pruebas-jahugo/tags/protection/</loc>
+    <loc>http://localhost:1313/tags/protection/</loc>
     <lastmod>2024-10-28T09:40:23+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pruebas-jahugo/tags/software/</loc>
+    <loc>http://localhost:1313/tags/software/</loc>
     <lastmod>2024-10-28T09:40:23+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pruebas-jahugo/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-10-28T09:40:23+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pruebas-jahugo/posts/orfeo/orfeo/</loc>
+    <loc>http://localhost:1313/posts/orfeo/orfeo/</loc>
     <lastmod>2024-10-28T09:39:54+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pruebas-jahugo/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-10-24T16:45:44+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pruebas-jahugo/categories/cibersecurity/</loc>
+    <loc>http://localhost:1313/categories/cibersecurity/</loc>
     <lastmod>2024-10-24T16:45:44+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pruebas-jahugo/tags/cibersegurity/</loc>
+    <loc>http://localhost:1313/tags/cibersegurity/</loc>
     <lastmod>2024-10-24T16:45:44+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pruebas-jahugo/posts/ewala/ewala/</loc>
+    <loc>http://localhost:1313/posts/ewala/ewala/</loc>
     <lastmod>2024-10-24T16:45:44+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pruebas-jahugo/tags/info/</loc>
+    <loc>http://localhost:1313/tags/info/</loc>
     <lastmod>2024-10-24T16:45:44+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pruebas-jahugo/tags/hardware/</loc>
+    <loc>http://localhost:1313/tags/hardware/</loc>
     <lastmod>2024-10-24T16:40:24+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pruebas-jahugo/posts/neotec/neotec/</loc>
+    <loc>http://localhost:1313/posts/neotec/neotec/</loc>
     <lastmod>2024-10-24T16:40:24+02:00</lastmod>
   </url>
 </urlset>

@@ -1,6 +1,6 @@
-baseURL = 'https://ewalait.github.io/pruebas-jahugo/'
+baseURL = 'https://ewalait.github.io/blogewala/'
 languageCode = 'en-us'
 title = 'Ewala IT Services Blog'
 theme = 'paper'
 [params]
-ewalalogo = 'https://ewalait.github.io/pruebas-jahugo/images/ewala_w.png'
+ewalalogo = 'https://ewalait.github.io/blogewala/images/ewala_w.png'

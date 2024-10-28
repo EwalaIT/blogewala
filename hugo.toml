@@ -1,4 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'Ewala Test Blog'
+title = 'Ewala IT Services Test Blog'
 theme = 'paper'
+[params]
+ewalalogo = '/images/ewala.png'
+prueba = 'a'

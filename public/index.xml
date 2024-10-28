@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ewala Test Blog</title>
+    <title>Ewala IT Services Test Blog</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Ewala Test Blog</description>
+    <description>Recent content on Ewala IT Services Test Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 28 Oct 2024 09:40:23 +0100</lastBuildDate>

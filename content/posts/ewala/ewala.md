@@ -7,6 +7,7 @@ tags: ["cibersegurity", "info"]
 developer: "Ewala"
 tagewala: "Las mejores soluciones de Ciberseguridad"
 header_image: "images/mi-imagen-header.jpg"
+
 ---
 ## ¿Qué es Ewala?
 
@@ -16,3 +17,5 @@ header_image: "images/mi-imagen-header.jpg"
 * Desarrollamos nuestras propias herramientas (Threat Intelligence, Asset Monitoring, etc.) gracias a nuestro departamento de I+D+i.
 * Ofrecemos servicios de ciberseguridad 100% personalizados, y con ello la mejor solución adaptada en cada caso.
 * Desde nuestro departamento financiero asesoramos a los clientes en la financiación de cada proyecto.
+
+  ![Imagen del equipo de Ewala](/images/ewala_equipo.png)

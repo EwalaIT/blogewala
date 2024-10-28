@@ -3,4 +3,4 @@ languageCode = 'en-us'
 title = 'Ewala IT Services Test Blog'
 theme = 'paper'
 [params]
-ewalalogo = '{{ .Site.BaseUrl }}/images/ewala.png'
+ewalalogo = '{{ .Site.baseUrl }}/images/ewala.png'

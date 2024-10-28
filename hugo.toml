@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://ewalait.github.io/pruebas-jahugo/'
 languageCode = 'en-us'
 title = 'Ewala IT Services Test Blog'
 theme = 'paper'

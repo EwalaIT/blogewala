@@ -16,4 +16,4 @@ header_image: "images/mi-imagen-header.jpg"
 * Ofrecemos servicios de ciberseguridad 100% personalizados, y con ello la mejor solución adaptada en cada caso.
 * Desde nuestro departamento financiero asesoramos a los clientes en la financiación de cada proyecto.
 
-  ![Imagen del equipo de Ewala](/images/ewala_equipo.png)
+  ![Imagen del equipo de Ewala]({{.Sites.baseURL}}/images/ewala_equipo.png)

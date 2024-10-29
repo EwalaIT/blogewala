@@ -29,10 +29,10 @@
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-10-24T16:45:44+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/cibersecurity/</loc>
+    <loc>http://localhost:1313/tags/cibersecurity/</loc>
     <lastmod>2024-10-24T16:45:44+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cibersegurity/</loc>
+    <loc>http://localhost:1313/categories/cibersecurity/</loc>
     <lastmod>2024-10-24T16:45:44+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/ewala/ewala/</loc>

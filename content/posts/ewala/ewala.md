@@ -2,7 +2,7 @@
 title: "Ewala"
 date: 2024-10-24T16:45:44+02:00
 categories: ["cibersecurity"]
-tags: ["cibersegurity", "info"]
+tags: ["cibersecurity", "info"]
 developer: "Ewala"
 tagewala: "Las mejores soluciones de Ciberseguridad"
 header_image: "images/mi-imagen-header.jpg"

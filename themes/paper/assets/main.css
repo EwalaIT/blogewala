@@ -111,7 +111,14 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: inherit;
+  font-family: "Montserrat", sans-serif;
+  color: #151515;
 }
+
+h2, h3, h4, h5, h6 {
+  color: #555555 !important;
+}
+
 
 /*
 Reset links to optimize for opt-in styling instead of opt-out.
@@ -2011,4 +2018,11 @@ article .highlight {
 
 .\[\&_svg\]\:block svg {
   display: block;
+}
+
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  color: #555555;
 }

@@ -1,12 +1,9 @@
 +++
 date = '2024-10-28T09:40:23+01:00'
 title = 'Karont3'
-
 category= ["products"]
-
 tags= ["products", "protection", "software"]
-
-
+author = "Ewala IT Services"
 +++
 
 

@@ -6,6 +6,8 @@ tags: ["cibersegurity", "info"]
 developer: "Ewala"
 tagewala: "Las mejores soluciones de Ciberseguridad"
 header_image: "images/mi-imagen-header.jpg"
+author: "Ewala"
+authorlink: "https://es.linkedin.com/company/e-wala-it-services"
 ---
 ## ¿Qué es Ewala?
 

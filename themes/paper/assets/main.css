@@ -2022,7 +2022,7 @@ p {
 }
 
 /* Customizar colores según el tema. Modificado con la clase dark en body */ 
-body:not(.dark) h1 {
+html:not(.dark) h1 {
   color: #151515 !important;
 }
 

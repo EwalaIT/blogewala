@@ -54,11 +54,18 @@
     >Featured</span
   >
   {{ end }}
-  <h2 class="!my-0">{{ .Title }}</h2>
+  <h2 class="ewala-title-link"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  {{ if .Params.author }}
+    {{ if .Params.authorlink }}
+      <p>Autor: <a style="z-index: 10;" href="{{ .Params.authorlink }}">{{ .Params.author }}</a></p>
+    {{else}}
+      <p>Autor: {{ .Params.author }}</p>
+    {{end}}
+  {{end}}
   <time class="text-xs antialiased opacity-60"
     >{{ .Date | time.Format ":date_medium" }}</time
   >
-  <h1><a class="absolute inset-0 text-[0]" href="{{ .Permalink }}">{{ .Title }}</a></h1>
+  <h1><a class="inset-0 text-[0]" href="{{ .Permalink }}">{{ .Title }}</a></h1>
 </section>
 {{ end }}
 

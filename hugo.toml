@@ -5,3 +5,4 @@ theme = 'paper'
 [params]
 ewalalogo = 'https://ewalait.github.io/blogewala/images/ewala_w.png'
 ewalafavicon = '/images/favicon.png'
+color = 'light'

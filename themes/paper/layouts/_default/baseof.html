@@ -6,9 +6,9 @@
 
 <!-- bg_color -->
 {{ $color_map := dict "linen" "#faf8f1" "wheat" "#f8f5d7" "gray" "#fbfbfb"
-"light" "#fff" }}<!---->
+"light" "#fff"}}<!---->
 {{ $.Scratch.Set "bg_color" (index $color_map (site.Params.color | default
-(print "linen"))) }}<!---->
+(print "light"))) }}<!---->
 {{ $bg_color := $.Scratch.Get "bg_color" }}<!---->
 
 <!-- social_list -->

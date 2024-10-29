@@ -2045,8 +2045,9 @@ html.dark h6,
 html.dark p,
 html.dark article,
 html.dark a,
-html.dark time {
-  color: white;
+html.dark time,
+html.dark p.strong {
+  color: white !important;
 }
 
 

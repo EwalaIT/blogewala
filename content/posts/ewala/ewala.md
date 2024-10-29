@@ -11,7 +11,7 @@ authorlink: "https://es.linkedin.com/company/e-wala-it-services"
 ---
 ## ¿Qué es Ewala?
 
-**Ewala** es una Empresa Innovadora de Base Tecnológica (EIBT). Nuestra sede principal está en Asturias y esto es lo que hacemos:
+Ewala es una Empresa Innovadora de Base Tecnológica (EIBT). Nuestra sede principal está en Asturias y esto es lo que hacemos:
 
 * Somos especialistas en Ciberseguridad Industrial (OT) y Ciberseguridad IT.
 * Desarrollamos nuestras propias herramientas (Threat Intelligence, Asset Monitoring, etc.) gracias a nuestro departamento de I+D+i.

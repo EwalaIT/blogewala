@@ -44,12 +44,14 @@
     {{ partial "header.html" . }}
 
     <main
-      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-[--w] px-8 pb-16 pt-14 dark:prose-invert"
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] px-8dark:prose-invert ewala-page-container"
     >
       <div>
         <img class="img-ewala-hacker" src="{{.Site.Params.ewalateam | relURL}}" />
       </div>
-      {{ block "main" . }}{{ end }}
+      <div class="ewala-sections-container">
+        {{ block "main" . }}{{ end }}
+      </div>
     </main>
 
     {{ partial "footer.html" . }}

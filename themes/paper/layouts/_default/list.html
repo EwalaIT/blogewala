@@ -48,7 +48,7 @@
 
 {{ end }}
 
-<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+<section class="relative ewala-section">
   {{ if gt .Weight 0 }}
   <span class="mb-1 inline-block text-xs tracking-wider text-orange-500"
     >Featured</span
@@ -57,9 +57,9 @@
   <h2 class="ewala-title-link"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
   {{ if .Params.author }}
     {{ if .Params.authorlink }}
-      <p>Autor: <a style="z-index: 10;" href="{{ .Params.authorlink }}">{{ .Params.author }}</a></p>
+      <p class="author-container">Autor: <a class="author-text" href="{{ .Params.authorlink }}" title="Go to {{ .Params.authorlink}}">{{ .Params.author }}</a></p>
     {{else}}
-      <p>Autor: {{ .Params.author }}</p>
+      <p class="author-container">Autor: <span class="author-text" title="{{.Params.author}}">{{ .Params.author }}</span></p>
     {{end}}
   {{end}}
   <time class="text-xs antialiased opacity-60"

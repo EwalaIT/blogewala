@@ -1174,15 +1174,7 @@ pre {
   transition-duration: 200ms;
 }
 
-.link:hover {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
 
-.link:hover:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
 
 .fixed {
   position: fixed;
@@ -2175,6 +2167,7 @@ copyright {
   margin-bottom: 30px;
   padding: 0%;
   overflow: hidden;
+  transition: transform .5s ease-in-out;
 }
 
 .post-image-list {
@@ -2221,7 +2214,7 @@ body, time {
   display: flex;
   justify-content: center;
 }
-.ewala-tags {
+.ewala-tags, .ewala-tag-nav {
   background-color: var(--ewala-color) !important;
   color: white;
 }
@@ -2230,15 +2223,49 @@ body, time {
   width: 100%;
 }
 
-.ewala-read-more:hover,
-.ewala-tags:hover
-{
+
+.ewala-tags-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Ewala Hovers */
+.link:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.link:hover:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.ewala-read-more:hover {
   transform: scale(1.1, 1.1);
   font-weight: bold;
   margin-right: 10px;
-    margin-left: 10px;
+  margin-left: 10px;
+}
+
+.ewala-tags:hover {
+  transform: scale(1.1, 1.1);
+  font-weight: bold;
+}
+
+.ewala-link:hover {
+  font-size: 26px;
 }
 
 .author-text:hover {
   font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.ewala-tag-nav:hover {
+  font-weight: bold;
+}
+
+.post-image-list-container:hover {
+  transform: scale(1.05,1.05);
 }

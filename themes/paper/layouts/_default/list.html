@@ -57,11 +57,13 @@
   <h2 class="ewala-title-link">
       
         <div class="post-image-list-container">
-          {{if .Params.postimage }}
-            <img src="{{.Params.postimage}}" class="post-image-list"/>
-          {{else}}
-            <img src="{{.Site.Params.defaultpostimage}}" class="post-image-list"/>
-          {{end}}
+          <a href="{{.Permalink}}">
+            {{if .Params.postimage }}
+              <img src="{{.Params.postimage}}" class="post-image-list"/>
+            {{else}}
+              <img src="{{.Site.Params.defaultpostimage}}" class="post-image-list"/>
+            {{end}}
+          </a>
         </div>
     <a class="ewala-link" href="{{ .Permalink }}">{{ .Title }}</a></h2>
 

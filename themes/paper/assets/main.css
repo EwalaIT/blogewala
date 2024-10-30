@@ -42,6 +42,13 @@
 7. Disable tap highlights on iOS
 */
 
+/* Color corporativo */
+:root {
+  --ewala-color: #00e58d;
+}
+
+
+
 html,
 :host {
   line-height: 1.5;
@@ -2031,26 +2038,23 @@ html:not(.dark) article {
   color: #555555;
 }
 
-.ewala-link,
-html:not(.dark) h1,
-html:not(.dark) .ewala-read-more{
-  color: #00e58d;
-}
 
-html.dark h2,
-html.dark h3,
-html.dark h4,
-html.dark h5,
-html.dark h6,
-html.dark p,
+html.dark p:not(.author-container),
 html.dark article,
-html.dark a:not(.credit, .ewala-link),
+html.dark a:not(.credit, .ewala-link, .author-text),
 html.dark time,
 html.dark p.strong,
 html.dark div {
   color: white !important;
 }
 
+.ewala-link,
+h1,
+.ewala-read-more
+h1, h2, h3, h4, h5, .author-text, .credit,
+.author-container {
+  color: var(--ewala-color) !important;
+}
 
 
 .img-ewala-hacker {
@@ -2071,7 +2075,7 @@ html.dark div {
 }
 
 .ewala-section {
-  border: 1px solid #aaaaaa;
+  border: 1px solid var(--ewala-color);
   width: 400px !important;
   height: 620px;
   border-radius: 6px;
@@ -2135,7 +2139,7 @@ copyright {
 }
 
 .social-icon {
-  background-color: #7cc576;
+  background-color: var(--ewala-color); /* #7cc576 */
   height: 80px;
   width: 80px;
   display: flex;
@@ -2175,10 +2179,11 @@ copyright {
 
 .post-image-list {
   object-fit: scale-down;
-  width: 100%;
+  width: fit-content;
   height: 200px;
   margin: 0%;
   padding: 0%;
+  border-radius: 8px;
 }
 
 .ewala-post-description {
@@ -2200,7 +2205,7 @@ body, time {
     margin-top: 20px;
     display: inline-block;
     line-height: 1;
-    background-color: #60eeb7;
+    background-color: var(--ewala-color);
     color: white !important;
     font-size: 15px;
     padding: 12px 24px;
@@ -2215,8 +2220,4 @@ body, time {
 .credits {
   display: flex;
   justify-content: center;
-}
-
-.credit {
-  color: #60eeb7;
 }

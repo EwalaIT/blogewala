@@ -45,6 +45,7 @@
 /* Color corporativo */
 :root {
   --ewala-color: #00e58d;
+  --ewala-color-hover: rgb(96, 220, 83);
 }
 
 
@@ -2138,6 +2139,7 @@ copyright {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+    transition: transform .2s ease-in-out;
 }
 
 .ewala-header {
@@ -2262,10 +2264,22 @@ body, time {
   letter-spacing: 1px;
 }
 
-.ewala-tag-nav:hover {
+.ewala-tag-nav:hover, .credit:hover {
   font-weight: bold;
 }
 
 .post-image-list-container:hover {
   transform: scale(1.05,1.05);
+}
+
+.copyright-link:hover {
+  text-decoration: underline;
+}
+
+.social a:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.ewala-tag-nav:hover{
+  background-color: var(--ewala-color-hover) !important;
 }

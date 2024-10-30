@@ -2102,15 +2102,32 @@ html.dark p.strong {
 }
 
 .ewala-footer {
-  position: absolute;
-  bottom: 0;
+  position: sticky;
+  bottom: 0vh;
+  height: 150px;
   background-color: black;
   color: white;
   width: 100vw;
   max-width: 100vw;
   justify-content: center;
+  margin-top: 30px;
 }
 
 copyright {
   margin: auto;
+}
+
+.social {
+  margin: 10px auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px; 
+}
+
+.copyright-container {
+  display: flex;
+  justify-content: center;
 }

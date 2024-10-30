@@ -2221,3 +2221,24 @@ body, time {
   display: flex;
   justify-content: center;
 }
+.ewala-tags {
+  background-color: var(--ewala-color) !important;
+  color: white;
+}
+
+.ewala-show-tag {
+  width: 100%;
+}
+
+.ewala-read-more:hover,
+.ewala-tags:hover
+{
+  transform: scale(1.1, 1.1);
+  font-weight: bold;
+  margin-right: 10px;
+    margin-left: 10px;
+}
+
+.author-text:hover {
+  font-weight: bold;
+}

@@ -2141,3 +2141,22 @@ copyright {
   align-items: center;
   border-radius: 50%;
 }
+
+.ewala-header {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  display: flex;
+  width: 100vw;
+  height: 60px;
+  align-items: center;
+}
+
+.ewala-logo  {
+  background: black;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}

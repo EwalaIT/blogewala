@@ -81,22 +81,6 @@
     </nav>
     {{ end }}<!---->
 
-    {{ with $.Scratch.Get "social_list" }}
-    <nav
-      class="mt-12 flex justify-center space-x-10 rtl:space-x-reverse dark:invert ltr:lg:ml-14 rtl:lg:mr-14 lg:mt-0 lg:items-center"
-    >
-      {{ range . }}<!---->
-      <a
-        class="h-7 w-7 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
-        style="--url: url(./{{ . }}.svg)"
-        href="{{ if eq . `rss` }}{{ `index.xml` | absURL }}{{ else if eq . `mastodon` }}{{ index site.Params . }}{{ else }}https://{{ . }}{{ if eq . `threads` }}.net{{ else }}.com{{ end }}/{{ if eq . `linkedin` }}in/{{ end }}{{ index site.Params . }}{{ end }}"
-        target="_blank"
-        rel="{{ if eq . `rss` }}alternate{{ else }}me{{ end }}"
-      >
-        {{ . }}
-      </a>
-      {{ end }}<!---->
-    </nav>
-    {{ end }}<!---->
+    
   </div>
 </header>

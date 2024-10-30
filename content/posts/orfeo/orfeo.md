@@ -1,11 +1,12 @@
 +++
 date = '2024-10-28T09:39:54+01:00'
 title = 'Orf3o'
-
 category = ["products"]
-
 tags = ["products", "protection", "software"]
-
+postimage = '/images/HackerEspejo.png'
+description = "Orfeo Threat Intelligence proporciona acceso a amplios IOCs e información relacionada."
+author= "Ewala"
+authorlink= "https://es.linkedin.com/company/e-wala-it-services"
 +++
 
 

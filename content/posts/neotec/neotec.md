@@ -3,6 +3,10 @@ title: "Neotec"
 date: 2024-10-24T16:40:24+02:00
 category: ["products"]
 tags: ["products","software", "hardware", "protection"]
+description: "Neotec es un proyecto destinado a proteger redes de equipos, actuando como si fuera un firewall avanzado, con capacidad para detectar conexiones peligrosas, y permitir o denegar el acceso a las mismas."
+author: "Ewala"
+authorlink: "https://es.linkedin.com/company/e-wala-it-services"
+
 ---
 # Neotec
 

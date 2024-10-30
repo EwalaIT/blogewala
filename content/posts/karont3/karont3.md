@@ -3,10 +3,11 @@ date = '2024-10-28T09:40:23+01:00'
 title = 'Karont3'
 category= ["products"]
 tags= ["products", "protection", "software"]
-author = 'Ewala IT Services'
+author= "Ewala"
+authorlink= "https://es.linkedin.com/company/e-wala-it-services"
+postimage='/images/sombreroHD.jpg'
+description = 'Karont3 es una herramienta de ciberseguridad que te protege más allá de tu perímetro de control, permitiéndote detectar información fugada antes de que se utilice con fines delictivos.'
 +++
-
-
 # Karont3
 
 Vigila a quien te vigila.

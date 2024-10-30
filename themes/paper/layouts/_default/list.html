@@ -2,7 +2,7 @@
 
 <!-- Tag Title -->
 {{ if and .Title (eq .Type "tags") }}
-<h1 class="mb-14">#{{ .Title }}</h1>
+<h1 class="mb-14">#{{ .Title }} zzzz</h1>
 {{ end }}
 
 <!-- $pages -->
@@ -54,17 +54,32 @@
     >Featured</span
   >
   {{ end }}
-  <h2 class="ewala-title-link"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  <h2 class="ewala-title-link">
+      
+        <div class="post-image-list-container">
+          {{if .Params.postimage }}
+            <img src="{{.Params.postimage}}" class="post-image-list"/>
+          {{else}}
+            <img src="{{.Site.Params.defaultpostimage}}" class="post-image-list"/>
+          {{end}}
+        </div>
+    <a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+
+    <time class="text-xs antialiased opacity-60">{{ .Date | time.Format ":date_medium" }}</time>
+  
   {{ if .Params.author }}
     {{ if .Params.authorlink }}
       <p class="author-container">Autor: <a class="author-text" href="{{ .Params.authorlink }}" title="Go to {{ .Params.authorlink}}">{{ .Params.author }}</a></p>
     {{else}}
       <p class="author-container">Autor: <span class="author-text" title="{{.Params.author}}">{{ .Params.author }}</span></p>
     {{end}}
+  {{else}}
+  <p>Sin autor</p>
   {{end}}
-  <time class="text-xs antialiased opacity-60"
-    >{{ .Date | time.Format ":date_medium" }}</time
-  >
+
+  <div class="ewala-post-description"> {{.Params.description}}</div>
+
+  <a class="ewala-read-more" href="{{ .Permalink}}">Leer más...</a>
   <h1><a class="inset-0 text-[0]" href="{{ .Permalink }}">{{ .Title }}</a></h1>
 </section>
 {{ end }}

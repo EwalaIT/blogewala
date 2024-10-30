@@ -2119,7 +2119,7 @@ copyright {
 
 .social {
   margin: 10px auto;
-  height: 100px;
+  height: 110px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2130,4 +2130,14 @@ copyright {
 .copyright-container {
   display: flex;
   justify-content: center;
+}
+
+.social-icon {
+  background-color: #7cc576;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }

@@ -22,14 +22,22 @@
       </svg>
     </a>
   </div>
+
+  <!-- Privacidad -->
+  <div class="credits">
+    <a class="credit" href="https://www.ewala.es/politica-privacidad.html">Política de privacidad |</a>
+    <a class="credit" href="https://www.ewala.es/aviso-legal.html"> Aviso legal |</a>
+    <a class="credit" href="https://www.ewala.es/politica-cookies.html"> Política de cookies</a>
+  </div>
   
+  <!-- Copyright -->
   <div class="copyright-container">
     <copyright>
   {{if site.Copyright}}
     {{site.Copyright}}
   {{else}}
     &copy; {{ now.Year }}
-    <a class="link" href="{{ `` | absURL }}">{{ site.Title }}</a>
+    <a class="link" href="{{ `` | absURL }}"><strong>Ewala</strong>. All rights Reserved</a>
   {{end}}
   </copyright>
   </div>

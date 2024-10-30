@@ -53,7 +53,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -111,7 +111,6 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: inherit;
-  font-family: "Montserrat", sans-serif;
 }
 
 
@@ -144,7 +143,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  /* font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
   /* 1 */
   font-feature-settings: normal;
   /* 2 */
@@ -208,7 +207,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
+  /* font-family: inherit; */
   /* 1 */
   font-feature-settings: inherit;
   /* 1 */
@@ -798,7 +797,7 @@ pre {
 
 .prose :where(kbd):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
   font-weight: 500;
-  font-family: inherit;
+  /* font-family: inherit; */
   color: var(--tw-prose-kbd);
   box-shadow: 0 0 0 1px rgb(var(--tw-prose-kbd-shadows) / 10%), 0 3px 0 rgb(var(--tw-prose-kbd-shadows) / 10%);
   font-size: 0.875em;
@@ -877,7 +876,7 @@ pre {
   font-weight: inherit;
   color: inherit;
   font-size: inherit;
-  font-family: inherit;
+  /* font-family: inherit; */
   line-height: inherit;
 }
 
@@ -2017,15 +2016,11 @@ article .highlight {
 
 
 p {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
   font-weight: normal;
 }
 
 /* Customizar colores según el tema. Modificado con la clase dark en body */ 
-html:not(.dark) h1 {
-  color: #151515 !important;
-}
-
 html:not(.dark) h2, 
 html:not(.dark) h3, 
 html:not(.dark) h4, 
@@ -2036,7 +2031,12 @@ html:not(.dark) article {
   color: #555555;
 }
 
-html.dark h1, 
+.ewala-link,
+html:not(.dark) h1,
+html:not(.dark) .ewala-read-more{
+  color: #00e58d;
+}
+
 html.dark h2,
 html.dark h3,
 html.dark h4,
@@ -2044,9 +2044,10 @@ html.dark h5,
 html.dark h6,
 html.dark p,
 html.dark article,
-html.dark a,
+html.dark a:not(.credit, .ewala-link),
 html.dark time,
-html.dark p.strong {
+html.dark p.strong,
+html.dark div {
   color: white !important;
 }
 
@@ -2072,7 +2073,7 @@ html.dark p.strong {
 .ewala-section {
   border: 1px solid #aaaaaa;
   width: 400px !important;
-  height: 600px;
+  height: 620px;
   border-radius: 6px;
   padding: 10px 10px;
   box-shadow: 5px 5px 5px #0000001f;
@@ -2086,7 +2087,9 @@ html.dark p.strong {
 }
 
 .ewala-page-container {
-  max-width: 1200px;
+  /* max-width: 1200px; */
+  width: 95vw;
+  max-width: 95vw;
 }
 
 .author-container {
@@ -2118,7 +2121,6 @@ copyright {
 }
 
 .social {
-  margin: 10px auto;
   height: 110px;
   display: flex;
   justify-content: center;
@@ -2188,4 +2190,33 @@ copyright {
     line-clamp: 5;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
+}
+
+body, time {
+  font-family: "Space Mono" !important;
+}
+
+.ewala-read-more {
+    margin-top: 20px;
+    display: inline-block;
+    line-height: 1;
+    background-color: #60eeb7;
+    color: white !important;
+    font-size: 15px;
+    padding: 12px 24px;
+    border-radius: 3px;
+    color: #fff;
+    fill: #fff;
+    text-align: center;
+    transition: all .3s;
+    text-decoration: none;
+}
+
+.credits {
+  display: flex;
+  justify-content: center;
+}
+
+.credit {
+  color: #60eeb7;
 }

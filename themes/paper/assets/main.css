@@ -2037,7 +2037,7 @@ html:not(.dark) article {
 
 html.dark p:not(.author-container),
 html.dark article,
-html.dark a:not(.credit, .ewala-link, .author-text),
+html.dark a:not(.credit, .ewala-link, .author-text, .ewala-button),
 html.dark time,
 html.dark p.strong,
 html.dark div {
@@ -2209,7 +2209,7 @@ body, time {
     color: white !important;
     font-size: 15px;
     padding: 12px 24px;
-    border-radius: 3px;
+    border-radius: .75rem;
     color: #fff;
     fill: #fff;
     text-align: center;
@@ -2311,4 +2311,30 @@ header,
   position: relative;
   bottom: 0;
   width: 100%;
+}
+
+/* --- *\
+/* Paginación */
+.ewala-post-paginator {
+  flex: 100%;
+  flex-grow: 1;
+}
+
+.ewala-button {
+  border-radius: .75rem;
+  --tw-bg-opacity: 1;
+  background-color: var(--ewala-color);
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .95em;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255/var(--tw-text-opacity));
+  text-decoration-line: none;
+  transition-duration: 100ms;
+}
+
+.ewala-button:hover {
+  transform: scale(1.05, 1.05);
 }

@@ -2308,6 +2308,7 @@ header,
 .ewala-post-paginator {
   flex: 100%;
   flex-grow: 1;
+  max-width: 800px;
 }
 
 .ewala-button {

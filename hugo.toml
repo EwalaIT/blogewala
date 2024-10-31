@@ -13,5 +13,5 @@ defaultpostimage = '/images/ewala.png'
 
 [pagination]
 disableAliases = false
-pagerSize = 1
+pagerSize = 2
 path = 'page'

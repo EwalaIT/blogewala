@@ -2,6 +2,7 @@ baseURL = 'https://blog.ewala.es'
 languageCode = 'en-us'
 title = 'Ewala IT Services Blog'
 theme = 'paper'
+
 [params]
 ewalalogo = 'https://ewalait.github.io/blogewala/images/ewala_w.png'
 ewalafavicon = '/images/favicon.png'

@@ -2,6 +2,7 @@ baseURL = 'https://blog.ewala.es'
 languageCode = 'en-us'
 title = 'Ewala IT Services Blog'
 theme = 'paper'
+
 [params]
 ewalalogo = 'https://ewalait.github.io/blogewala/images/ewala_w.png'
 ewalafavicon = '/images/favicon.png'
@@ -10,3 +11,8 @@ ewalateam = '/images/logo-hacker.png'
 youtube = 'https://www.youtube.com/channel/UCMcvwAIxQNsI8WloxR9r_gg'
 linkedin = 'https://www.linkedin.com/company/e-wala-it-services'
 defaultpostimage = '/images/ewala.png'
+
+[pagination]
+disableAliases = false
+pagerSize = 2
+path = 'page'

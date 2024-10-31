@@ -88,16 +88,18 @@
 
 <!-- Main Nav -->
 {{ if gt $paginator.TotalPages 1 }}
-<nav class="mt-14 flex">
-  {{ if $paginator.HasPrev }}
-  <a class="btn" href="{{ $paginator.Prev.URL }}">← {{ i18n "prev_page" }}</a>
-  {{ end }}<!---->
-  {{ if $paginator.HasNext }}
-  <a class="btn ml-auto" href="{{ $paginator.Next.URL }}"
-    >{{ i18n "next_page" }} →</a
-  >
-  {{ end }}
-</nav>
+  <div class="ewala-post-paginator">
+    <nav class="mt-14 flex">
+      {{ if $paginator.HasPrev }}
+      <a class="ewala-button" href="{{ $paginator.Prev.URL }}">← {{ i18n "prev_page" }}</a>
+      {{ end }}<!---->
+      {{ if $paginator.HasNext }}
+      <a class="ml-auto ewala-button" href="{{ $paginator.Next.URL }}"
+        >{{ i18n "next_page" }} →</a
+      >
+      {{ end }}
+    </nav>
+  </div>
 {{ end }}<!---->
 
 {{ end }}

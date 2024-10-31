@@ -2037,7 +2037,7 @@ html:not(.dark) article {
 
 html.dark p:not(.author-container),
 html.dark article,
-html.dark a:not(.credit, .ewala-link, .author-text),
+html.dark a:not(.credit, .ewala-link, .author-text, .ewala-button),
 html.dark time,
 html.dark p.strong,
 html.dark div {
@@ -2105,21 +2105,12 @@ h1, h2, h3, h4, h5, .author-text, .credit,
 }
 
 .ewala-footer {
-  /* position: sticky;
-  bottom: 0vh;
-  height: 150px;
-  background-color: black;
-  color: white;
-  width: 100vw;
-  max-width: 100vw;
-  justify-content: center;
-  margin-top: 30px; */
   background-color: black;
   color: white;
 }
 
 copyright {
-  margin: auto;
+  margin: 20px auto;
 }
 
 .social {
@@ -2128,7 +2119,8 @@ copyright {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 100px; 
+  gap: 100px;
+  margin-top: 20px;
 }
 
 .copyright-container {
@@ -2144,7 +2136,7 @@ copyright {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-    transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
 }
 
 .ewala-header {
@@ -2209,7 +2201,7 @@ body, time {
     color: white !important;
     font-size: 15px;
     padding: 12px 24px;
-    border-radius: 3px;
+    border-radius: .75rem;
     color: #fff;
     fill: #fff;
     text-align: center;
@@ -2220,6 +2212,7 @@ body, time {
 .credits {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 .ewala-tags, .ewala-tag-nav {
   background-color: var(--ewala-color) !important;
@@ -2270,7 +2263,7 @@ body, time {
   letter-spacing: 1px;
 }
 
-.ewala-tag-nav:hover, .credit:hover {
+.credit:hover {
   font-weight: bold;
 }
 
@@ -2286,9 +2279,6 @@ body, time {
   transform: scale(1.1, 1.1);
 }
 
-.ewala-tag-nav:hover{
-  background-color: var(--ewala-color-hover) !important;
-}
 
 
 /* --- */
@@ -2311,4 +2301,37 @@ header,
   position: relative;
   bottom: 0;
   width: 100%;
+}
+
+/* --- *\
+/* Paginación */
+.ewala-post-paginator {
+  flex: 100%;
+  flex-grow: 1;
+  max-width: 800px;
+}
+
+.ewala-button {
+  border-radius: .75rem;
+  --tw-bg-opacity: 1;
+  background-color: var(--ewala-color);
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .95em;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255/var(--tw-text-opacity));
+  text-decoration-line: none;
+  transition-duration: 100ms;
+}
+
+.ewala-button:hover {
+  transform: scale(1.05, 1.05);
+  font-weight: bold;
+}
+
+.ewala-single-paginator {
+  margin-top: 44px;
+  display: flex;
 }

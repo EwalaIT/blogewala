@@ -2308,6 +2308,11 @@ header,
 .ewala-post-paginator {
   flex: 100%;
   flex-grow: 1;
+}
+
+.ewala-limit-width {
+  width: 100%;
+  margin: auto;
   max-width: 800px;
 }
 

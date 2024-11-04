@@ -16,5 +16,5 @@ pageBlog = 'https://blog.ewala.es/'
 
 [pagination]
 disableAliases = false
-pagerSize = 2
+pagerSize = 6
 path = 'page'

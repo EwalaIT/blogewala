@@ -9,13 +9,12 @@ author= "Ewala"
 authorlink= "https://es.linkedin.com/company/e-wala-it-services"
 +++
 
+## Orf3o
 
-# Orf3o
+### Búsquedas centralizadas
 
-## Búsquedas centralizadas
+**Orf3o** es una aplicación de **Threat Intelligence** desarrollada por el departamento de I+D+i de **Ewala** que permite buscar de manera centralizada indicadores de compromiso (IOCs), facilitando así la investigación en equipos de seguridad (Blue Teams, SOCs, Incident Response Teams).
 
-Orf3o es una aplicación de Threat Intelligence desarrollada por el departamento de I+D+i de Ewala que permite buscar de manera centralizada indicadores de compromiso (IOCs), facilitando así la investigación en equipos de seguridad (Blue Teams, SOCs, Incident Response Teams).
+### Múltiples orígenes
 
-## Múltiples orígenes
-
-Orf3o basa su efectividad en la incorporación de diversas fuentes de datos, incluyendo indicadores reportados por el propio equipo de analistas de Ewala.
+**Orf3o** basa su efectividad en la incorporación de diversas fuentes de datos, incluyendo indicadores reportados por el propio equipo de analistas de Ewala.

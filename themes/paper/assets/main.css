@@ -2144,7 +2144,7 @@ copyright {
   padding: 0px;
   background-color: black;
   display: flex;
-  width: 100vw;
+  /* width: 100vw; */
   height: 60px;
   align-items: center;
 }
@@ -2339,4 +2339,17 @@ header,
 .ewala-single-paginator {
   margin-top: 44px;
   display: flex;
+}
+
+.link-topbar:hover {
+  font-weight: bold !important;
+}
+
+.topbar-cont {
+  background: black;
+  width: calc(100vw - 20px);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

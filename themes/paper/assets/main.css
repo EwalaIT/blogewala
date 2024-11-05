@@ -2039,7 +2039,8 @@ html.dark p:not(.author-container),
 html.dark article,
 html.dark a:not(.credit, .ewala-link, .author-text, .ewala-button),
 html.dark time,
-html.dark p.strong,
+html.dark p,
+html.dark strong,
 html.dark div {
   color: white !important;
 }
@@ -2144,7 +2145,7 @@ copyright {
   padding: 0px;
   background-color: black;
   display: flex;
-  width: 100vw;
+  /* width: 100vw; */
   height: 60px;
   align-items: center;
 }
@@ -2339,4 +2340,26 @@ header,
 .ewala-single-paginator {
   margin-top: 44px;
   display: flex;
+}
+
+.link-topbar {
+  
+  font-size: 24px;
+}
+
+.link-topbar span {
+color: var(--ewala-color);
+}
+
+.link-topbar:hover {
+  font-weight: bold !important;
+}
+
+.topbar-cont {
+  background: black;
+  width: calc(100vw - 20px);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

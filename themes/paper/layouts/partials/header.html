@@ -1,10 +1,15 @@
 <header class="flex lg:justify-center ewala-header">
   <div class="relative z-50 ltr:mr-auto rtl:ml-auto flex items-center">
-    <a class=" text-2xl font-medium" href="{{ `` | absURL }}"
+    <a class=" text-2xl font-medium" href="{{ .Site.Params.pageEwala }}"
       >
-      <div style="background: black; padding: 10px 20px;  width: 100vw; display: flex;justify-content: space-between; align-items: center;">
+      <div class="topbar-cont">
         <img src="{{ .Site.Params.ewalalogo }}" style="width: 100px; margin: auto;">
         </a>
+        <div style="width: inherit;"></div>
+        <a class="link-topbar" href='{{ "/" | relURL }}' title="¡Visita nuestro blog!">
+          <span>B</span>log
+        </a>
+
         <div
           class="btn-dark text-[0] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer {{ if site.Params.monoDarkIcon }}[background:url(./theme.svg)_left_center/cover_no-repeat] dark:invert{{ else }}[background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)]{{ end }} dark:[background-position:right]"
           role="button" aria-label="Dark"></div>

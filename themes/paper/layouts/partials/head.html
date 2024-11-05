@@ -82,6 +82,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet">
+
+  <!-- Etiqueta canonical para el SEO -->
+  <link rel="canonical" href="{{ .Site.Params.pageEwala | absURL }}" />
+  <!-- Etiqueta robots para el SEO -->
+  <meta name="robots" content="index, follow" />
+
+
   <!-- generator -->
   {{ hugo.Generator }}
 

@@ -2342,6 +2342,15 @@ header,
   display: flex;
 }
 
+.link-topbar {
+  
+  font-size: 24px;
+}
+
+.link-topbar span {
+color: var(--ewala-color);
+}
+
 .link-topbar:hover {
   font-weight: bold !important;
 }

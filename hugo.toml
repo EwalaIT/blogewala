@@ -13,6 +13,8 @@ linkedin = 'https://www.linkedin.com/company/e-wala-it-services'
 defaultpostimage = '/images/ewala.png'
 pageEwala = 'https://www.ewala.es/'
 pageBlog = 'https://blog.ewala.es/'
+ewalaBlogImg = '/images/hackerLogo.png'
+ewalaSecurityWizards = '/images/ewala_sec_wiz.png'
 
 [pagination]
 disableAliases = false

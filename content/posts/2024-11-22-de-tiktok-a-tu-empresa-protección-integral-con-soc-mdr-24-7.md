@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "De TikTok a tu Empresa: Protección integral con SOC-MDR 24/7 "
+title: "De TikTok a tu Empresa: Protección integral con SOC-MDR 24/7"
 date: 2024-11-22T13:07:26.595Z
 thumbnail: /images/ima-0001-03-post-mdr-24-7-para-publicar-131124.png
 tags: Monitorización 24/7, MDR kit digital, MDR 24/7, SOC, SOC pyme/s, SIEM,

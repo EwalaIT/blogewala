@@ -2,6 +2,7 @@ backend:
   name: github
   repo: EwalaIT/blogewala
   branch: master
+  base_url: ""
 
 media_folder: "static/images/" # Carpeta para cargar imágenes
 public_folder: "/images" # Carpeta para mostrar imágenes en el sitio

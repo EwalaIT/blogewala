@@ -1,14 +1,4 @@
 ---
-layout: blog
-title: "De TikTok a tu Empresa: Protección integral con SOC-MDR 24/7"
-author: Ewala
-authorlink: https://es.linkedin.com/company/e-wala-it-services
-date: 2024-11-22T13:07:26.595Z
-thumbnail: /images/ima-0001-03-post-mdr-24-7-para-publicar-131124.png
-description: "La prohibición de TikTok en Canadá resalta la necesidad de
-  ciberseguridad continua. Protege tu empresa con SOC-MDR 24/7: monitorización,
-  cumplimiento normativo y defensa avanzada, ahora accesible para PYMEs con el
-  programa Kit Digital."
 meta_description: Descubre cómo proteger tu empresa con un servicio SOC-MDR
   24/7. Monitorización continua, SIEM, XDR y cumplimiento normativo ahora
   accesibles para PYMEs gracias al Kit Digital.
@@ -21,7 +11,23 @@ meta_keywords:
   - SOC pyme/s
   - SIEM
   - XDR pyme
-tags: []
+title: "De TikTok a tu Empresa: Protección integral con SOC-MDR 24/7"
+date: 2024-11-22T13:07:26.595Z
+categories:
+  - cibersecurity
+tags:
+  - cibersecurity
+  - info
+header_image: /images/ima-0001-03-post-mdr-24-7-para-publicar-131124.png
+authorlink: https://es.linkedin.com/company/e-wala-it-services
+layout: blog
+postimage: /images/ima-0001-03-post-mdr-24-7-para-publicar-131124.png
+author: Ewala
+thumbnail: /images/ima-0001-03-post-mdr-24-7-para-publicar-131124.png
+description: "La prohibición de TikTok en Canadá resalta la necesidad de
+  ciberseguridad continua. Protege tu empresa con SOC-MDR 24/7: monitorización,
+  cumplimiento normativo y defensa avanzada, ahora accesible para PYMEs con el
+  programa Kit Digital."
 ---
 <!--StartFragment-->
 

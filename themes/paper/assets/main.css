@@ -2074,8 +2074,8 @@ h1, h2, h3, h4, h5, .author-text, .credit,
 .ewala-section {
   border: 1px solid var(--ewala-color);
   width: 400px !important;
-  height: 620px;
-  border-radius: 6px;
+  height: 680px;
+  border-radius: .75rem;
   padding: 10px 10px;
   box-shadow: 5px 5px 5px #0000001f;
 }

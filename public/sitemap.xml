@@ -3,7 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-<<<<<<< Updated upstream
     <lastmod>2024-11-25T09:30:37+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/cibersecurity/</loc>
@@ -26,34 +25,13 @@
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-11-25T09:30:37+00:00</lastmod>
-=======
-    <lastmod>2024-11-22T13:07:26+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/cibersecurity/</loc>
-    <lastmod>2024-11-22T13:07:26+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/cybersecurity/</loc>
     <lastmod>2024-11-22T13:07:26+00:00</lastmod>
->>>>>>> Stashed changes
   </url><url>
     <loc>http://localhost:1313/posts/2024-11-22-de-tiktok-a-tu-empresa-protecci%C3%B3n-integral-con-soc-mdr-24-7/</loc>
     <lastmod>2024-11-22T13:07:26+00:00</lastmod>
   </url><url>
-<<<<<<< Updated upstream
-=======
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-22T13:07:26+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/info/</loc>
-    <lastmod>2024-11-22T13:07:26+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-11-22T13:07:26+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-11-22T13:07:26+00:00</lastmod>
-  </url><url>
->>>>>>> Stashed changes
     <loc>http://localhost:1313/posts/karont3/karont3/</loc>
     <lastmod>2024-10-28T09:40:23+01:00</lastmod>
   </url><url>
@@ -69,12 +47,6 @@
     <loc>http://localhost:1313/posts/orfeo/orfeo/</loc>
     <lastmod>2024-10-28T09:39:54+01:00</lastmod>
   </url><url>
-<<<<<<< Updated upstream
-    <loc>http://localhost:1313/tags/cybersecurity/</loc>
-    <lastmod>2024-10-24T16:45:44+02:00</lastmod>
-  </url><url>
-=======
->>>>>>> Stashed changes
     <loc>http://localhost:1313/posts/ewala/ewala/</loc>
     <lastmod>2024-10-24T16:45:44+02:00</lastmod>
   </url><url>
@@ -83,10 +55,5 @@
   </url><url>
     <loc>http://localhost:1313/posts/neotec/neotec/</loc>
     <lastmod>2024-10-24T16:40:24+02:00</lastmod>
-<<<<<<< Updated upstream
-  </url><url>
-    <loc>http://localhost:1313/tags/monitorizaci%C3%B3n-24/7-mdr-kit-digital-mdr-24/7-soc-soc-pyme/s-siem-xdr-pyme/</loc>
-=======
->>>>>>> Stashed changes
   </url>
 </urlset>

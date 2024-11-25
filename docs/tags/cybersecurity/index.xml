@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybersecurity on Ewala IT Services Blog</title><link>https://blog.ewala.es/tags/cybersecurity/</link><description>Recent content in Cybersecurity on Ewala IT Services Blog</description><generator>Hugo</generator><language>es</language><lastBuildDate>Thu, 24 Oct 2024 16:45:44 +0200</lastBuildDate><atom:link href="https://blog.ewala.es/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml"/><item><title>Ewala</title><link>https://blog.ewala.es/posts/ewala/ewala/</link><pubDate>Thu, 24 Oct 2024 16:45:44 +0200</pubDate><guid>https://blog.ewala.es/posts/ewala/ewala/</guid><description>&lt;h2 id="qué-es-ewala">¿Qué es Ewala?&lt;/h2>
-&lt;p>&lt;strong>Ewala&lt;/strong> es una &lt;strong>Empresa Innovadora de Base Tecnológica&lt;/strong> (EIBT). Nuestra sede principal está en &lt;strong>Asturias&lt;/strong> y esto es lo que hacemos:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>Somos especialistas en &lt;strong>Ciberseguridad Industrial&lt;/strong> (OT) y &lt;strong>Ciberseguridad IT&lt;/strong>.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Desarrollamos nuestras propias herramientas (Threat Intelligence, Asset Monitoring, etc.) gracias a nuestro departamento de I+D+i.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Ofrecemos servicios de ciberseguridad 100% personalizados, y con ello la mejor solución adaptada en cada caso.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Desde nuestro departamento financiero asesoramos a los clientes en la financiación de cada proyecto.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybersecurity on Ewala IT Services Blog</title>
+    <link>https://blog.ewala.es/tags/cybersecurity/</link>
+    <description>Recent content in Cybersecurity on Ewala IT Services Blog</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 22 Nov 2024 13:07:26 +0000</lastBuildDate>
+    <atom:link href="https://blog.ewala.es/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>De TikTok a tu Empresa: Protección integral con SOC-MDR 24/7</title>
+      <link>https://blog.ewala.es/posts/2024-11-22-de-tiktok-a-tu-empresa-protecci%C3%B3n-integral-con-soc-mdr-24-7/</link>
+      <pubDate>Fri, 22 Nov 2024 13:07:26 +0000</pubDate>
+      <guid>https://blog.ewala.es/posts/2024-11-22-de-tiktok-a-tu-empresa-protecci%C3%B3n-integral-con-soc-mdr-24-7/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;La prohibición de TikTok en dispositivos gubernamentales canadienses marca un precedente histórico en ciberseguridad empresarial. El 29 de febrero de 2024, Canadá tomó esta decisión sin precedentes, evidenciando una realidad innegable: si una potencia mundial necesita protección continua contra amenazas cibernéticas, ¿qué nivel de seguridad requiere tu empresa?  &lt;/p&gt;&#xA;&lt;p&gt;Imagina una empresa de distribución alimentaria que gestiona pedidos online a través de su ERP, almacena datos de clientes en su CRM y coordina una flota de vehículos conectados. Sus sistemas procesan información sensible constantemente: desde datos de tarjetas de crédito hasta información confidencial en Office365. &lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

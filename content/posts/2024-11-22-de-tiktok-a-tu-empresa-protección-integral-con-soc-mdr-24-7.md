@@ -1,6 +1,8 @@
 ---
 layout: blog
 title: "De TikTok a tu Empresa: Protección integral con SOC-MDR 24/7"
+author: Ewala
+authorlink: https://es.linkedin.com/company/e-wala-it-services
 date: 2024-11-22T13:07:26.595Z
 thumbnail: /images/ima-0001-03-post-mdr-24-7-para-publicar-131124.png
 description: "La prohibición de TikTok en Canadá resalta la necesidad de
@@ -43,12 +45,6 @@ La protección no solo abarca las aplicaciones críticas del negocio, sino que a
 * \- Regulación DORA para resiliencia digital 
 
 TikTok invirtió más de 1.500 millones en su "Proyecto Texas" para mejorar su seguridad. Tu empresa puede lograr una protección robusta sin necesidad de inversiones millonarias, mediante un servicio SOC-MDR 24/7 que incluye monitorización continua y soporte experto. 
-
- 
-
- 
-
- 
 
 Esta es una oportunidad Única para PYMEs. Las empresas de 50 a 250 empleados puedes participar en el programa Kit Digital que ofrece un año de servicio gratuito, incluyendo: 
 

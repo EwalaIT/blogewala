@@ -3,9 +3,14 @@ backend:
   repo: EwalaIT/blogewala
   branch: master
   base_url: ""
+  site_domain: "https://blog.ewala.es/"
+  
+local_backend: true
 
 media_folder: "static/images/" # Carpeta para cargar imágenes
 public_folder: "/images" # Carpeta para mostrar imágenes en el sitio
+
+publish_mode: editorial_workflow
 
 collections:
   - name: "post"
@@ -22,6 +27,7 @@ collections:
       - { label: "Tagline", name: "tagewala", widget: "string", required: false }
       - { label: "Header Image", name: "header_image", widget: "image", required: false }
       - { label: "Post Image", name: "postimage", widget: "image", required: false }
+      - { label: "Featured Image", name: "thumbnail", widget: "image", required: false } # Imagen destacada
       - { label: "Author", name: "author", widget: "string", required: false, default: "Ewala" }
       - { label: "Author Link", name: "authorlink", widget: "string", required: false }
       - { label: "Description", name: "description", widget: "text", required: true }

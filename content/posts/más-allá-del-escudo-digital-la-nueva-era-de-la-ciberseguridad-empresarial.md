@@ -9,6 +9,7 @@ tags:
 developer: Ewala
 header_image: /images/ima-0001-02-av-edr-mdr.jpg
 postimage: /images/ima-0001-02-av-edr-mdr.jpg
+thumbnail: /images/ima-0001-02-av-edr-mdr.jpg
 author: Ewala
 authorlink: https://es.linkedin.com/company/e-wala-it-services
 description: La ciberseguridad avanza del antivirus tradicional al MDR,

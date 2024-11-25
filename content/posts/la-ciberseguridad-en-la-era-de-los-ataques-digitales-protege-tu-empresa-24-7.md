@@ -10,6 +10,7 @@ tags:
 developer: Ewala
 header_image: /images/ima-0001-01-post-mdr-24-7.png
 postimage: /images/ima-0001-01-post-mdr-24-7.png
+thumbnail: /images/ima-0001-01-post-mdr-24-7.png
 author: Ewala
 authorlink: https://es.linkedin.com/company/e-wala-it-services
 description: Los ciberdelincuentes perfeccionan sus tácticas con ataques

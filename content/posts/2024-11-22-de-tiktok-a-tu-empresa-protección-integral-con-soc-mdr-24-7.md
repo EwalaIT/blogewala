@@ -3,8 +3,23 @@ layout: blog
 title: "De TikTok a tu Empresa: Protección integral con SOC-MDR 24/7"
 date: 2024-11-22T13:07:26.595Z
 thumbnail: /images/ima-0001-03-post-mdr-24-7-para-publicar-131124.png
-tags: Monitorización 24/7, MDR kit digital, MDR 24/7, SOC, SOC pyme/s, SIEM,
-  XDR, pyme
+description: "La prohibición de TikTok en Canadá resalta la necesidad de
+  ciberseguridad continua. Protege tu empresa con SOC-MDR 24/7: monitorización,
+  cumplimiento normativo y defensa avanzada, ahora accesible para PYMEs con el
+  programa Kit Digital."
+meta_description: Descubre cómo proteger tu empresa con un servicio SOC-MDR
+  24/7. Monitorización continua, SIEM, XDR y cumplimiento normativo ahora
+  accesibles para PYMEs gracias al Kit Digital.
+meta_keywords:
+  - Monitorización 24/7
+  - MDR
+  - MDR kit digital
+  - MDR 24/7
+  - SOC
+  - SOC pyme/s
+  - SIEM
+  - XDR pyme
+tags: []
 ---
 <!--StartFragment-->
 

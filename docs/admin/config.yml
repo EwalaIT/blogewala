@@ -1,6 +1,5 @@
 backend:
   name: github
-  local_backend: true
   repo: EwalaIT/blogewala
   branch: master
 

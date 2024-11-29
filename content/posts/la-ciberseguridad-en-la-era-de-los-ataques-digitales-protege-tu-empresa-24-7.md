@@ -3,9 +3,9 @@ title: "La Ciberseguridad en la Era de los Ataques Digitales: Protege tu Empresa
   24/7 "
 date: 2024-11-25T11:03:11.715Z
 categories:
-  - cibersecurity
+  - cybersecurity
 tags:
-  - cibersecurity
+  - cybersecurity
   - info
 developer: Ewala
 header_image: /images/ima-0001-01-post-mdr-24-7.png

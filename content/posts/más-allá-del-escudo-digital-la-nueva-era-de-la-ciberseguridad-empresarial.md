@@ -4,7 +4,7 @@ date: 2024-11-25T09:30:37.500Z
 categories:
   - cibersecurity
 tags:
-  - cibersecurity
+  - cybersecurity
   - info
 developer: Ewala
 header_image: /images/ima-0001-02-av-edr-mdr.jpg

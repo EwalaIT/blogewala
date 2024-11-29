@@ -2190,8 +2190,16 @@ copyright {
     -webkit-box-orient: vertical;
 }
 
-body, time {
+body h1, time h1,
+body h2, time h2,
+body h3, time h3,
+body h4, time h4 {
   font-family: "Space Mono" !important;
+}
+
+body p, time p,
+body li, time li {
+  font-family: "Noto Sans" !important;
 }
 
 .ewala-read-more {

@@ -1,19 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Cybersecurity on Ewala IT Services Blog</title>
-    <link>http://localhost:1313/categories/cybersecurity/</link>
-    <description>Recent content in Cybersecurity on Ewala IT Services Blog</description>
-    <generator>Hugo</generator>
-    <language>es</language>
-    <lastBuildDate>Mon, 25 Nov 2024 11:03:11 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>La Ciberseguridad en la Era de los Ataques Digitales: Protege tu Empresa 24/7 </title>
-      <link>http://localhost:1313/posts/la-ciberseguridad-en-la-era-de-los-ataques-digitales-protege-tu-empresa-24-7/</link>
-      <pubDate>Mon, 25 Nov 2024 11:03:11 +0000</pubDate>
-      <guid>http://localhost:1313/posts/la-ciberseguridad-en-la-era-de-los-ataques-digitales-protege-tu-empresa-24-7/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Imagina esta situación: una mañana normal de trabajo, recibes una notificación urgente de la Agencia Tributaria. Es aparentemente una inspección fiscal para un contrato público valorado en 2,8 millones de euros. El documento parece legítimo, utiliza el formato oficial, y solicita un pago inmediato de 5.000€ en concepto de garantía de procedimiento administrativo. La presión del plazo de 48 horas y el riesgo de paralización del contrato te empuja a autorizar el pago sin verificar&amp;hellip; acabas de caer en una estafa. &lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybersecurity on Ewala IT Services Blog</title><link>https://blog.ewala.es/categories/cybersecurity/</link><description>Recent content in Cybersecurity on Ewala IT Services Blog</description><generator>Hugo</generator><language>es</language><lastBuildDate>Mon, 25 Nov 2024 11:03:11 +0000</lastBuildDate><atom:link href="https://blog.ewala.es/categories/cybersecurity/index.xml" rel="self" type="application/rss+xml"/><item><title>La Ciberseguridad en la Era de los Ataques Digitales: Protege tu Empresa 24/7</title><link>https://blog.ewala.es/posts/la-ciberseguridad-en-la-era-de-los-ataques-digitales-protege-tu-empresa-24-7/</link><pubDate>Mon, 25 Nov 2024 11:03:11 +0000</pubDate><guid>https://blog.ewala.es/posts/la-ciberseguridad-en-la-era-de-los-ataques-digitales-protege-tu-empresa-24-7/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;p>Imagina esta situación: una mañana normal de trabajo, recibes una notificación urgente de la Agencia Tributaria. Es aparentemente una inspección fiscal para un contrato público valorado en 2,8 millones de euros. El documento parece legítimo, utiliza el formato oficial, y solicita un pago inmediato de 5.000€ en concepto de garantía de procedimiento administrativo. La presión del plazo de 48 horas y el riesgo de paralización del contrato te empuja a autorizar el pago sin verificar&amp;hellip; acabas de caer en una estafa. &lt;/p></description></item></channel></rss>

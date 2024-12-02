@@ -2083,8 +2083,27 @@ h1, h2, h3, h4, h5, .author-text, .credit,
 .ewala-sections-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 35px;
   justify-content: center;
+  border: 1px solid var(--ewala-color);
+  padding: 10px 10px;
+  box-shadow: 5px 5px 5px #0000001f;
+  border-radius: 0.75em;
+}
+
+.ewala-article {
+  display: flex;
+  flex-direction: column;
+}
+
+.ewala-article p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.ewala-article-section {
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .ewala-page-container {
@@ -2310,6 +2329,7 @@ header,
   position: relative;
   bottom: 0;
   width: 100%;
+  font-family: "Space Mono";
 }
 
 /* --- *\

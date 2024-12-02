@@ -18,6 +18,12 @@ pageBlog = 'https://blog.ewala.es/'
 ewalaBlogImg = '/images/hackerLogo.png'
 ewalaSecurityWizards = '/images/ewala_sec_wiz.png'
 
+[params.seo]
+  description = "Blog sobre ciberseguridad, tecnología y más, por Ewala IT Services."
+  keywords = ["Ciberseguridad", "Ewala IT Services", "Tecnología", "Seguridad informática"]
+  ogImage = "/images/ewala.png"
+
+
 [pagination]
 disableAliases = false
 pagerSize = 6

@@ -24,8 +24,6 @@ Imagina esta situación: una mañana normal de trabajo, recibes una notificació
 
 Este no es un escenario hipotético. Está sucediendo ahora mismo, con cientos de nuevos ataques cada día. Los ciberdelincuentes han perfeccionado sus tácticas hasta tal punto que utilizan infraestructuras legítimas para sus estafas. Y las consecuencias son devastadoras: proyectos paralizados, pérdidas financieras masivas, reputaciones destruidas. 
 
-![](/images/ima-0001-01-post-mdr-24-7.png)
-
 En este contexto de amenazas cada vez más sofisticadas, la pregunta no es si sufrirás un ataque, sino cuándo. La implementación de un servicio SOC-MDR 24/7 se vuelve crucial: 
 
 **\- Monitorización continua de toda tu infraestructura digital** 

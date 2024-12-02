@@ -33,37 +33,41 @@
 {{ end }}<!---->
 {{ end }}<!---->
 
-<html
-  class="not-ready lg:text-base"
-  style="--bg: {{ $bg_color }}"
-  lang="{{ or site.LanguageCode site.Language.Lang }}"
-  dir="{{ if site.Params.direction }}{{ site.Params.direction }}{{ else }}ltr{{ end }}"
->
-  {{ partial "head.html" . }}
-  <body class="text-black duration-200 ease-out dark:text-white">
-    {{ partial "header.html" . }}
+<html class="not-ready lg:text-base" style="--bg: {{ $bg_color }}" lang="{{ or site.LanguageCode site.Language.Lang }}"
+  dir="{{ if site.Params.direction }}{{ site.Params.direction }}{{ else }}ltr{{ end }}">
+{{ partial "head.html" . }}
 
-    {{ if not .IsPage }}
-        <div class="ciberseg-frontal">
-          <img class="cyberseg-img" src="{{ .Site.Params.ewalaBlogImg | relURL }}"
-            alt="Image of a Ewala's Cibersecurity Agent" />
-          <div class="ciberseg-texts">
-            <div>
-              <img src="{{ .Site.Params.ewalaSecurityWizards | relURL }}">
-              <h1>Blog de Ciberseguridad</h1>
-            </div>
-          </div>
-        </div>
-    {{end}}
-    
-    <main
-      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] px-8dark:prose-invert ewala-page-container"
-    >
-      <div class="ewala-sections-container">
-        {{ block "main" . }}{{ end }}
+<body class="text-black duration-200 ease-out dark:text-white">
+  {{ partial "header.html" . }}
+
+  {{ if not .IsPage }}
+  <div class="ciberseg-frontal">
+    <img class="cyberseg-img" src="{{ .Site.Params.ewalaBlogImg | relURL }}"
+      alt="Image of a Ewala's Cibersecurity Agent" />
+    <div class="ciberseg-texts">
+      <div>
+        <img src="{{ .Site.Params.ewalaSecurityWizards | relURL }}">
+        <h1>Blog de Ciberseguridad</h1>
       </div>
-    </main>
+    </div>
+  </div>
+  {{end}}
 
-    {{ partial "footer.html" . }}
-  </body>
+  <main class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] px-8dark:prose-invert ewala-page-container">
+
+    <div class="ewala-post-container">
+      {{ block "main" . }}{{ end }}
+    </div>
+    {{if "post"}}
+      <div class="ewala-sections-container">
+        {{ block "post" . }}{{ end }}
+      </div>
+    {{end}}
+
+
+  </main>
+
+  {{ partial "footer.html" . }}
+</body>
+
 </html>

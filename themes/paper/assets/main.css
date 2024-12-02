@@ -2091,9 +2091,42 @@ h1, h2, h3, h4, h5, .author-text, .credit,
   border-radius: 0.75em;
 }
 
+.ewala-post-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: center;
+}
+
+
 .ewala-article {
   display: flex;
   flex-direction: column;
+  gap: 1rem; /* Espaciado entre elementos */
+  line-height: 1.75; /* Mejora de legibilidad */
+  font-size: 1rem; /* Ajuste base para accesibilidad */
+  padding: 2rem;
+  background-color: var(--background-light); /* Colores adaptables según el tema */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.ewala-article:hover {
+  transform: translateY(-3px); /* Efecto flotante al pasar el ratón */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Resaltar en hover */
+}
+
+.ewala-article h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--ewala-color);
+  margin-bottom: 1rem;
+}
+
+.ewala-article header .text-xs {
+  font-size: 0.875rem; /* Tamaño más legible */
+  color: var(--text-muted); /* Tonalidad más suave */
 }
 
 .ewala-article p {
@@ -2104,6 +2137,23 @@ h1, h2, h3, h4, h5, .author-text, .credit,
 .ewala-article-section {
   margin-left: 15%;
   margin-right: 15%;
+  padding: 1rem 2rem;
+  color: var(--text-primary);
+  font-family: "Noto Sans", sans-serif;
+  background: var(--content-bg); /* Fondo diferenciado */
+  border-radius: 8px;
+  border: 1px solid var(--border-color-light);
+}
+
+/* Comentarios: Espaciado más amplio */
+.ewala-article #disqus_thread,
+.ewala-article #graphcomment,
+.ewala-article .giscus {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: var(--content-bg-alt);
+  border-radius: 8px;
+  border: 1px solid var(--border-color-light);
 }
 
 .ewala-page-container {
@@ -2195,6 +2245,18 @@ copyright {
   height: 200px;
   margin: 0%;
   padding: 0%;
+  border-radius: 8px;
+}
+
+.post-image-detail-container {
+  position: relative;
+  justify-items: center;
+  margin-bottom: 20px;
+}
+
+.post-image-detail {
+  width: 40%;
+  height: 35%;
   border-radius: 8px;
 }
 

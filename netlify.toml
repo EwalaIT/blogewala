@@ -7,13 +7,11 @@
 
 [context.production]
   # Especifica la versión de Hugo que usará Netlify
-  environment = { HUGO_VERSION = "0.139.0", HUGO_ENV = "production" }
-
-[context.production.environment]
-  # Configuración del entorno en producción
-  HUGO_VERSION = "0.139.0"
-  HUGO_ENV = "production"
-  HUGO_ENABLEGITINFO = "true"
+  environment = { 
+    HUGO_VERSION = "0.139.0"
+    HUGO_ENV = "production"
+    HUGO_ENABLEGITINFO = "true" 
+  }
 
 [context.split1]
   command = "hugo --gc --minify --enableGitInfo"

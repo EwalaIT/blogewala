@@ -2153,8 +2153,8 @@ h1, h2, h3, h4, h5, .author-text, .credit,
 
 .ewala-article-h2 {
   font-size: 24px !important;
-  color: black !important; 
-  margin-top: -10px; 
+  color: black !important;
+  margin-top: -px;
   margin-left: 10%;
   margin-right: 10%; 
   text-align: justify;
@@ -2512,6 +2512,7 @@ color: var(--ewala-color);
   background-color: black;
   width: 100vw;
   z-index: 1;
+  margin-top: -8px;
 }
 
 .cyberseg-img {
@@ -2557,4 +2558,112 @@ color: var(--ewala-color);
     margin-top: 10px;
     /* Agrega algo de margen entre la imagen y el texto */
   }
+}
+
+
+/* Ajustes para el tema oscuro */
+html.dark .ewala-article {
+  background-color: #333333; /* Fondo oscuro */
+  color: white; /* Texto blanco */
+}
+
+html.dark .ewala-article h1,
+html.dark .ewala-article h2,
+html.dark .ewala-article h3,
+html.dark .ewala-article h4,
+html.dark .ewala-article h5,
+html.dark .ewala-article h6 {
+  color: white; /* Asegurarse que los títulos sean blancos en tema oscuro */
+}
+
+html.dark .ewala-article p {
+  color: #d1d1d1; /* Textos de párrafos en gris claro */
+}
+
+html.dark .ewala-article a {
+  color: #a0cfff; /* Enlaces de color azul claro en tema oscuro */
+}
+
+html.dark .ewala-tags a {
+  background-color: #444444; /* Fondo de las etiquetas más oscuro */
+  color: white;
+}
+
+html.dark .ewala-tags a:hover {
+  background-color: #555555; /* Fondo al pasar el ratón sobre las etiquetas */
+}
+
+/* Ajustar bordes y elementos con clase 'dark' */
+html.dark .ewala-article-section,
+html.dark .ewala-tags-footer,
+html.dark .ewala-article footer {
+  border-color: #555555; /* Borde gris en el tema oscuro */
+}
+
+html.dark .ewala-button,
+html.dark .ewala-link,
+html.dark .ewala-button:focus,
+html.dark .ewala-link:focus {
+  color: white !important; /* Botones y enlaces en color blanco en tema oscuro */
+  background-color: #555555; /* Fondo de botones en tema oscuro */
+}
+
+html.dark .post-image-detail {
+  border: 2px solid #444444; /* Borde de las imágenes en oscuro */
+}
+
+/* Fondo de comentarios */
+html.dark .ewala-article #disqus_thread,
+html.dark .ewala-article #graphcomment,
+html.dark .ewala-article .giscus {
+  background-color: #2b2b2b; /* Fondo más oscuro para los comentarios */
+  border-color: #555555;
+}
+
+/* Enlaces dentro de la sección */
+html.dark .ewala-article a {
+  color: #a0cfff; /* Enlaces en azul claro */
+}
+
+html.dark .ewala-article h1 {
+  color: #ffffff;
+}
+
+html.dark .ewala-article-h2 {
+  color: #ffffff !important;
+}
+
+/* Títulos de la sección */
+html.dark .ewala-article-section h2 {
+  color: white;
+}
+
+/* Ajustar el color de los textos en los posts */
+html.dark .ewala-post-description {
+  color: #d1d1d1;
+}
+
+/* Personalización de los botones */
+html.dark .ewala-read-more {
+  background-color: #555555; /* Fondo de botones en oscuro */
+  color: white !important;
+}
+
+html.dark .ewala-sections-container {
+  background-color: #2b2b2b; /* Fondo de las secciones en oscuro */
+}
+
+/* Fondo y colores de pie de página y encabezado */
+html.dark .ewala-footer {
+  background-color: #222222; /* Fondo oscuro */
+  color: white;
+}
+
+html.dark .ewala-header {
+  background-color: #333333; /* Encabezado oscuro */
+  color: white;
+}
+
+html.dark .ewala-post-container {
+  background-color: #20212b;
 }

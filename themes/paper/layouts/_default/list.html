@@ -5,6 +5,11 @@
 <h1 class="mb-14 ewala-show-tag">Tag: #{{ .Title }}</h1>
 {{ end }}
 
+{{ if and .Title (eq .Type "categories") }}
+<h1 class="mb-14 ewala-show-category">Categoría: {{ .Title }}</h1>
+{{ end }}
+
+
 <!-- $pages -->
 {{ $pages := union .RegularPages .Sections }}<!---->
 {{ if .IsHome }}<!---->

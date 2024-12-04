@@ -2139,6 +2139,27 @@ h1, h2, h3, h4, h5, .author-text, .credit,
   margin-bottom: 0.5rem;
 }
 
+.ewala-article h2 {
+  font-size: 2.4rem;
+}
+
+.ewala-article h3 {
+  font-size: 2rem;
+}
+
+.ewala-article h4 {
+  font-size: 1.7rem;
+}
+
+.ewala-article-h2 {
+  font-size: 24px !important;
+  color: black !important; 
+  margin-top: -10px; 
+  margin-left: 10%;
+  margin-right: 10%; 
+  text-align: justify;
+}
+
 .ewala-article header .text-xs {
   font-size: 0.875rem; /* Tamaño más legible */
   color: white; /* Tonalidad más suave */
@@ -2154,7 +2175,6 @@ h1, h2, h3, h4, h5, .author-text, .credit,
   font-size: 1.15rem;
   font-weight: 300;
   text-align: justify;
-  list-style: none;
 }
 
 .ewala-article-section {

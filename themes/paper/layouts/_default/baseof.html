@@ -53,20 +53,23 @@
   </div>
   {{end}}
 
+  {{ if .IsHome }}
   <main class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] px-8dark:prose-invert ewala-page-container">
 
-    <div class="ewala-post-container">
-      {{ if .IsHome }}
+    <div class="ewala-sections-container">
+
       {{ block "main" . }}{{ end }}
-      {{ else  }}
-      <div class="ewala-sections-container">
-        {{ block "post" . }}{{ end }}
-      </div>
-      {{ end }}
+
     </div>
 
-
   </main>
+  {{ else }}
+  <main class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] px-8dark:prose-invert ewala-post-container">
+    <div class="ewala-post-container">
+      {{ block "post" . }}{{ end }}
+    </div>
+  </main>
+  {{ end }}
 
   {{ partial "footer.html" . }}
 </body>

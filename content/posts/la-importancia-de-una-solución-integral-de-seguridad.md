@@ -24,13 +24,13 @@ description: >-
 
   Cada día se hace más patente la necesidad de implementar sistemas SIEM XDR que integren múltiples fuentes de información.
 ---
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -70,9 +70,9 @@ description: >-
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -651,9 +651,9 @@ description: >-
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -682,39 +682,27 @@ description: >-
 	mso-ligatures:standardcontextual;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
-**La importancia de una solución integral de seguridad**
-
-
+## **La importancia de una solución integral de seguridad**
 
 El Centro de Operaciones de Ciberseguridad (COCS) publicó en prensa la noticia de que un departamento del CSIC había recibido un ataque ransomware. Este incidente pone en cuestión la efectividad de los sistemas actual de protección ante amenazas.
 
- 
-
 Cada día se hace más patente la necesidad de implementar sistemas SIEM XDR que integren múltiples fuentes de información.
-
- 
 
 Un SOC moderno debe unificar datos provenientes de firewalls, antivirus, sistemas EDR, aplicaciones corporativas y servicios cloud como Office365, ERPs y CRMs. Sin esta integración perdemos la habilidad de detener la amenaza cuando aún no se ha manifestado y ha alcanzado toda su capacidad destructiva.
 
- 
-
-**Cumplimiento normativo y protección institucional**
+### **Cumplimiento normativo y protección institucional**
 
 El Esquema Nacional de Seguridad (ENS) no es simplemente un marco regulatorio: es una inversión que genera beneficios económicos directos. En Ewala, hemos comprobado que las empresas certificadas en ENS no solo reducen significativamente sus costes por incidentes de seguridad, sino que también acceden a lucrativas oportunidades de negocio.
 
-**La economía de la prevención**
+### **La economía de la prevención**
 
 Aunque es difícil cuantificar el retorno de la inversión en ciberseguridad antes de un incidente, la experiencia del INIA-CSIC enseña que los costos de recuperación post-ataque siempre exceden la inversión en prevención.
 
- 
-
 Para organizaciones medianas, existen opciones accesibles gracias al programa Kit Digital, que ofrece un año completo de servicio SOC-MDR sin coste para empresas entre 50 y 250 empleados, incluyendo:
-
- 
 
 * Despliegue completo del servicio
 * Monitorización continua 24/7
@@ -722,13 +710,9 @@ Para organizaciones medianas, existen opciones accesibles gracias al programa Ki
 * Informes detallados de actividad
 * Licencias de SIEM y EDR
 
- 
-
-**Plan de acción inmediata**
+### **Plan de acción inmediata**
 
 La lección más importante del incidente del INIA-CSIC es que la protección proactiva no es opcional. Las organizaciones deben actuar ahora para implementar soluciones MDR y servicios SOC especializados. Este caso demuestra que esperar a sufrir un ataque puede resultar en:
-
- 
 
 * Pérdidas económicas significativas
 * Paralización de operaciones críticas
@@ -736,20 +720,12 @@ La lección más importante del incidente del INIA-CSIC es que la protección pr
 * Compromiso de información sensible
 * Costes elevados de recuperación
 
-**Si los ciberdelincuentes no esperan, ¿porque deberías de esperar tú?**
-
- 
+### **Si los ciberdelincuentes no esperan, ¿por qué deberías de esperar tú?**
 
 No esperes a ser la próxima víctima de un ciberataque. La implementación de soluciones MDR kit digital y servicios SOC especializados es fácil, rápida y eficiente.  
 
- 
-
 Con las ayudas disponibles y el coste potencial de un ataque, la pregunta no es si puede permitirse implementar estas medidas, sino si puede permitirse no hacerlo.
 
- 
-
 Para evaluar sus necesidades específicas de protección y conocer cómo aprovechar las ayudas del Kit Digital, contacte con especialistas en ciberseguridad que puedan realizar una evaluación personalizada de sus requerimientos.
-
- 
 
 <!--EndFragment-->

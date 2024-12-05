@@ -24,13 +24,13 @@ description: >-
 
   Cada día se hace más patente la necesidad de implementar sistemas SIEM XDR que integren múltiples fuentes de información.
 ---
-<!--\\[if gte mso 9]><xml>
+<!--\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\[endif]-->
+</xml><!\\\[endif]-->
 
-<!--\\[if gte mso 9]><xml>
+<!--\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -70,9 +70,9 @@ description: >-
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\[endif]-->
+</xml><!\\\[endif]-->
 
-<!--\\[if gte mso 9]><xml>
+<!--\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -651,9 +651,9 @@ description: >-
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\[endif]-->
+</xml><!\\\[endif]-->
 
-<!--\\[if gte mso 10]>
+<!--\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -682,13 +682,13 @@ description: >-
 	mso-ligatures:standardcontextual;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\[endif]-->
+<!\\\[endif]-->
 
 <!--StartFragment-->
 
 ## **La importancia de una solución integral de seguridad**
 
-El Centro de Operaciones de Ciberseguridad (COCS) publicó en prensa la noticia de que un departamento del CSIC había recibido un ataque ransomware. Este incidente pone en cuestión la efectividad de los sistemas actual de protección ante amenazas.
+El Centro de Operaciones de Ciberseguridad (COCS) publicó en prensa la noticia de que un departamento del CSIC había recibido un ataque ransomware. Este incidente pone en cuestión la efectividad de los sistemas actual de protección ante amenazas
 
 Cada día se hace más patente la necesidad de implementar sistemas SIEM XDR que integren múltiples fuentes de información.
 

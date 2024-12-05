@@ -5,7 +5,7 @@
     name="viewport"
     content="width=device-width, initial-scale=1, shrink-to-fit=no"
   />
-
+  
   <!-- title -->
   <title>{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ site.Title }}</title>
 
@@ -16,8 +16,8 @@
   {{ $site_author := or site.Author.name site.Params.name site.Title }}
   <!---->
   {{ if eq .Kind "page" }}
-  <meta name="description" content="{{ .Summary }}" />
-  <meta name="author" content="{{ or .Params.author $site_author }}" />
+  <meta name="description" content="{{ .Summary | default site.Params.description }}" />
+  <meta name="author" content="{{ or .Params.author (or site.Author.name site.Title) }}" />
   {{ else }}
   <!---->
   <meta
@@ -86,7 +86,11 @@
   <!-- Etiqueta canonical para el SEO -->
   <link rel="canonical" href="{{ .Site.Params.pageEwala | absURL }}" />
   <!-- Etiqueta robots para el SEO -->
+  {{ if or (eq .Type "tags") (eq .Type "categories") }}
+  <meta name="robots" content="noindex, follow" />
+  {{ else }}
   <meta name="robots" content="index, follow" />
+  {{ end }}
 
 
   <!-- generator -->
